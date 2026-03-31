@@ -26,7 +26,7 @@
    * Chat endpoint — either your Cloudflare Worker proxy URL or the direct
    * OpenAI endpoint (only use direct when testing locally with a restricted key).
    */
-  const CHAT_ENDPOINT = "https://api.openai.com/v1/chat/completions";
+  const CHAT_ENDPOINT = "https://corai.urstrulykenneth.workers.dev/";
 
   /** System prompt for Corai GPT */
   const OPENAI_SYSTEM_PROMPT = `You are the Corai GPT demo assistant embedded on the Corai website. Corai Ltd is a UK-based B2B AI transformation and automation partner.
