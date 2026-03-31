@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Corai: AI Transformation &amp; Automation</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&display=swap" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="film-grain" aria-hidden="true"></div>
+
+    <header class="nav" id="nav">
+      <a href="#slide-1" class="nav-logo-link" aria-label="Corai, home">
+        <img src="./logo-transparent.png" alt="Corai" class="nav-logo" />
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#slide-1">Home</a>
+        <a href="#slide-2">Solutions</a>
+        <a href="#slide-3">About</a>
+        <a href="#slide-4">Free Request</a>
+        <a href="#slide-5">Contact</a>
+        <a href="#support">Support</a>
+      </nav>
+      <div class="nav-right">
+        <a href="#slide-5" class="btn btn-primary nav-cta">Get in touch</a>
+        <button class="nav-burger" id="nav-burger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="slides" id="slides">
+      <section class="slide slide-hero" id="slide-1">
+        <div class="hero-bg">
+          <div class="hero-glow hero-glow-1"></div>
+          <div class="hero-glow hero-glow-2"></div>
+        </div>
+        <div class="hero-layout">
+          <div class="hero-content">
+            <p class="hero-kicker reveal" data-delay="0">Build AI to your Brand</p>
+            <h1 class="hero-title reveal" data-delay="100">
+              <span class="line">Your Business,</span>
+              <span class="line">Powered <span class="hero-title-join">by</span> <span class="highlight">corAI</span></span>
+            </h1>
+            <p class="hero-subtitle reveal" data-delay="200">
+              Corai helps businesses thrive in the AI-driven discovery era, making your brand visible not only in search results, but in the answers AI gives to the world, while intelligent automation ensures you never miss a lead.
+            </p>
+            <div class="hero-ctas reveal" data-delay="320">
+              <a href="#slide-5" class="btn btn-primary btn-lg">Book a demo</a>
+              <a href="#slide-2" class="btn btn-outline btn-lg"><span class="btn-highlight">Solutions</span></a>
+            </div>
+          </div>
+
+          <div class="hero-chat-backdrop" id="hero-chat-backdrop" aria-hidden="true"></div>
+          <aside
+            class="hero-chat reveal"
+            data-delay="260"
+            id="hero-chat"
+            aria-label="Corai GPT demo assistant — try anytime on this page; not live human support"
+          >
+            <div class="hero-chat-header">
+              <div class="hero-chat-header-main">
+                <span class="hero-chat-title">CORAI GPT</span>
+                <p class="hero-chat-live-support">
+                  <span class="hero-chat-live-dot" aria-hidden="true"></span>
+                  <span>AI demo · always on here</span>
+                </p>
+              </div>
+              <div class="hero-chat-header-right">
+                <button class="hero-chat-clear" id="hero-chat-clear" type="button" aria-label="Clear chat" hidden>Clear</button>
+                <button type="button" class="hero-chat-close" id="hero-chat-close" aria-label="Return chat to hero section">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            </div>
+            <div class="hero-chat-intro" id="hero-chat-intro">
+              <p class="hero-chat-intro-lead">How <span class="hero-chat-intro-accent">Corai</span> can help your business?</p>
+              <p class="hero-chat-intro-sub">Ask about your business, a goal, or a pain point. We&apos;ll keep answers short and practical.</p>
+            </div>
+            <div class="hero-chat-messages" id="hero-chat-messages" role="log" aria-live="polite" hidden>
+              <div class="chat-msg chat-msg--ai chat-msg--welcome">
+                <p class="chat-msg-text">How Corai can help your business?</p>
+                <p class="chat-msg-text chat-msg-sub">Ask about your business, a goal, or a pain point. We&apos;ll keep answers short and practical.</p>
+              </div>
+              <div class="chat-typing" id="chat-typing" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </div>
+            </div>
+            <form class="hero-chat-input" method="get" action="#" id="hero-chat-form">
+              <input
+                type="text"
+                name="query"
+                placeholder="E.g. 'How can I get more quality leads without Ads'"
+                autocomplete="off"
+                aria-label="Your message"
+              />
+              <button type="submit" class="btn btn-primary">Ask</button>
+            </form>
+          </aside>
+        </div>
+      </section>
+
+      <section class="slide slide-solutions" id="slide-2">
+        <div class="section-bg"></div>
+        <div class="section-content">
+          <p class="section-kicker reveal">What we do</p>
+          <h2 class="section-title reveal">Transform. Automate. Scale.</h2>
+          <p class="section-subtitle reveal">
+            A full-spectrum AI transformation suite, built for serious business.
+          </p>
+          <div class="features-grid" id="features-grid">
+            <!-- Filled by data.json -->
+          </div>
+          <div class="section-cta reveal">
+            <a href="#slide-4" class="btn btn-primary btn-lg">See it in action</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide slide-about" id="slide-3">
+        <div class="section-bg section-bg-about"></div>
+        <div class="section-content about-content">
+          <p class="section-kicker reveal">About us</p>
+          <h2 class="section-title reveal">Who we are</h2>
+          <p class="section-subtitle reveal">
+            Corai is an AI transformation and automation partner for businesses that want to move faster, without the overhead of building everything in-house.
+          </p>
+          <div class="about-body reveal">
+            <p>We combine strategy, design, and engineering to deliver end-to-end solutions: from brand and digital presence to workflow automation and back-office integration. Our team works as an extension of yours, so you get production-ready outcomes without the hiring lag.</p>
+            <p>We are <strong>UK-based</strong> and work especially well with teams in <strong>regulated and high-trust sectors</strong> (including healthcare) where accuracy, compliance, and clear handoffs matter.</p>
+            <p>Whether you need a new website, smarter processes, or a full AI roadmap, we focus on clarity, delivery, and results you can measure. <span class="about-honest">Detailed case studies are on the way. On a call we can share relevant examples and references.</span></p>
+          </div>
+          <div class="metrics-strip reveal" id="metrics-strip" data-delay="80"><!-- Filled by data.json --></div>
+          <div class="section-cta reveal" data-delay="160" style="margin-top:28px;">
+            <a href="#slide-5" class="btn btn-primary btn-lg">Start a conversation</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide slide-pricing" id="slide-4">
+        <div class="section-bg section-bg-pricing"></div>
+        <div class="section-content pricing-content">
+          <p class="section-kicker reveal">Request</p>
+          <h2 class="section-title reveal">Request a FREE Corai Transformation Glimpse.</h2>
+          <p class="section-subtitle reveal">
+            Your free pilot lands in <strong>4/5 business days</strong>, <strong>fully built, not just promised</strong>. Happy with what you see on our first call?
+            <strong>We deploy it right then and there</strong>, within your budget. Need more?
+            <strong>Extra features, full scope, and costs</strong> are all agreed together in a dedicated business meeting.
+          </p>
+          <p class="section-subtitle reveal">
+            <strong>Every build</strong> comes with a fresh, <strong>unique layout</strong>, starting from the landing page itself.
+          </p>
+          <div class="request-panel reveal" data-delay="80">
+            <form class="request-form cta-form" id="request-form">
+              <div class="request-form-grid">
+                <label>
+                  <span>Your name *</span>
+                  <input type="text" name="name" placeholder="Your full name" autocomplete="name" maxlength="60" required />
+                </label>
+                <label>
+                  <span>Business name *</span>
+                  <input type="text" name="business" placeholder="Your company" autocomplete="organization" maxlength="80" required />
+                </label>
+                <label>
+                  <span>Work email *</span>
+                  <input type="email" name="email" placeholder="you@company.com" autocomplete="email" maxlength="120" required />
+                </label>
+                <label>
+                  <span>Phone number *</span>
+                  <input type="tel" name="phone" placeholder="Company contact number" autocomplete="tel" maxlength="30" required />
+                </label>
+                <label>
+                  <span>Website (optional)</span>
+                  <input type="url" name="website" placeholder="https://yourdomain.com" autocomplete="url" maxlength="120" />
+                </label>
+                <label>
+                  <span>Industry (optional)</span>
+                  <input
+                    type="text"
+                    name="industry"
+                    placeholder="e.g. Healthcare, retail, professional services"
+                    autocomplete="off"
+                    maxlength="80"
+                  />
+                </label>
+                <fieldset class="request-budget-fieldset">
+                  <legend class="request-budget-legend">Budget band</legend>
+                  <div id="request-budget-radios" class="request-budget-radios"></div>
+                </fieldset>
+                <label class="request-form-message">
+                  <span>What do you want to transform?</span>
+                  <textarea
+                    name="message"
+                    rows="3"
+                    placeholder="Leads, admin workflows, customer support, operations..."
+                    data-max-chars="180"
+                    maxlength="180"
+                  ></textarea>
+                  <span class="request-char-counter" aria-live="polite">0 / 180 characters</span>
+                </label>
+              </div>
+              <p class="cta-form-status" role="status" aria-live="polite" hidden></p>
+              <button type="submit" class="btn btn-primary btn-lg">Request now</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide slide-cta" id="slide-5">
+        <div class="section-bg section-bg-cta"></div>
+        <div class="cta-layout">
+          <div class="cta-content">
+            <p class="section-kicker reveal">Get started</p>
+            <h2 class="cta-title reveal" id="support">Let&apos;s build something real.</h2>
+            <p class="cta-subtitle reveal">
+              Use Free Request for a tailored first step, or send a quick message here. No credit card required.
+            </p>
+            <p class="cta-support-note reveal">
+              <strong>Support:</strong> email <a href="mailto:contact@corai.co.uk?subject=Support%20enquiry">contact@corai.co.uk</a>.
+              We aim to reply within <strong>two UK business days</strong> for general enquiries.
+              <strong>Corai GPT</strong> on the <a href="#slide-1">home</a> page is an on-site demo assistant (not a live person).
+            </p>
+            <div class="cta-actions reveal">
+              <a href="#slide-4" class="btn btn-primary btn-lg">Book a demo</a>
+            </div>
+          </div>
+          <div class="cta-message reveal" data-delay="120">
+            <h3>Send us a message</h3>
+            <p>Tell us what you&apos;re trying to build and we&apos;ll come back with a concrete plan.</p>
+            <form class="cta-form" id="cta-form">
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Your name" autocomplete="name" required />
+              </label>
+              <label>
+                <span>Work email</span>
+                <input type="email" name="email" placeholder="you@company.com" autocomplete="email" required />
+              </label>
+              <label>
+                <span>What do you want to automate?</span>
+                <textarea
+                  name="message"
+                  rows="4"
+                  placeholder="Give us a quick overview of your workflows, tools, or ideas."
+                  data-max-words="60"
+                  maxlength="400"
+                  required
+                ></textarea>
+                <span class="word-counter" id="word-counter">0 / 60 words</span>
+              </label>
+              <p class="cta-form-status" id="cta-form-status" role="status" aria-live="polite" hidden></p>
+              <button type="submit" class="btn btn-primary btn-lg" id="cta-form-submit">Send message</button>
+            </form>
+          </div>
+        </div>
+        <footer class="site-footer">
+          <div class="site-footer-inner">
+            <p class="site-footer-links">
+              <a href="#slide-1">Home</a>
+              <span aria-hidden="true">·</span>
+              <a href="#" data-modal="privacy">Privacy</a>
+              <span aria-hidden="true">·</span>
+              <a href="#" data-modal="terms">Terms</a>
+              <span aria-hidden="true">·</span>
+              <a href="#" data-modal="cookies">Cookies</a>
+              <span aria-hidden="true">·</span>
+              <a href="#" data-modal="accessibility">Accessibility</a>
+              <span aria-hidden="true">·</span>
+              <a href="#support">Support</a>
+            </p>
+            <p class="site-footer-meta">
+              <span>© 2026 Corai Ltd. All rights reserved.</span>
+              <span>Registered in England &amp; Wales.</span>
+            </p>
+          </div>
+        </footer>
+      </section>
+    </main>
+
+    <!-- Legal modals -->
+    <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-label="Information" hidden>
+      <div class="modal-panel">
+        <button class="modal-close" id="modal-close" aria-label="Close">&#x2715;</button>
+        <div class="modal-body" id="modal-content">
+          <!-- Filled by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Cookie consent banner -->
+    <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie notice" hidden>
+      <div class="cookie-banner-inner">
+        <p class="cookie-banner-text">
+          We use cookies to remember your preferences and load Google Fonts for typography.
+          <button class="cookie-learn-btn" data-modal="cookies">Learn more</button>
+        </p>
+        <div class="cookie-banner-actions">
+          <button class="btn btn-ghost cookie-btn" id="cookie-reject">Reject non-essential</button>
+          <button class="btn btn-primary cookie-btn" id="cookie-accept">Accept all</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

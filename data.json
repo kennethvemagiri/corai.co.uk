@@ -1,0 +1,61 @@
+{
+  "budgetBands": [
+    {
+      "id": "essential",
+      "name": "Essential",
+      "tagline": "Digital presence & AI-ready foundations"
+    },
+    {
+      "id": "growth",
+      "name": "Growth",
+      "tagline": "Automation, experience & integrations"
+    },
+    {
+      "id": "transform",
+      "name": "Transform",
+      "tagline": "End-to-end programme, dedicated delivery"
+    },
+    {
+      "id": "unsure",
+      "name": "Not sure yet",
+      "tagline": "We’ll advise on a call"
+    }
+  ],
+  "metrics": [
+    { "value": "UK", "label": "Based" },
+    { "value": "24/7", "label": "Demo assistant" },
+    { "value": "GDPR", "label": "Compliant" }
+  ],
+  "features": [
+    {
+      "title": "Website & Digital Transformation",
+      "description": "AI-driven design, UX rebuild, and brand repositioning aligned with 2026 digital standards.",
+      "points": [
+        "Full UX audit & conversion-focused redesign",
+        "AI Engine Optimisation: get cited by ChatGPT, Perplexity & Google AI",
+        "Brand repositioning built for the AI discovery era",
+        "Mobile-first, fast & accessibility-compliant delivery"
+      ]
+    },
+    {
+      "title": "Workflow & Admin Automation",
+      "description": "End-to-end automation of scheduling, invoicing, onboarding, and reporting, powered by bespoke AI agents.",
+      "points": [
+        "Automate scheduling, invoicing, onboarding & reporting",
+        "Bespoke AI agents wired into your existing tools",
+        "Engagements often target 40 to 60% admin reduction within 90 days, scope-dependent",
+        "No-code dashboards so your team stays in control"
+      ]
+    },
+    {
+      "title": "AI-Powered Customer Experience",
+      "description": "Intelligent chatbots, virtual assistants, and automated communication pipelines for 24/7 engagement.",
+      "points": [
+        "24/7 chatbots trained on your exact business context",
+        "Automated follow-ups, reminders & lead nurturing",
+        "Integrates with your CRM, booking system & helpdesk",
+        "On-brand responses that convert visitors into clients"
+      ]
+    }
+  ]
+}

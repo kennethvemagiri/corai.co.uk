@@ -1,0 +1,18 @@
+# ─── Private / internal docs ─────────────────────────────────────────────
+CORAI_CLAUDE_BRIEF.md
+SUPPORT.md
+INSTRUCTIONS.md
+
+# ─── Editor & tool settings ──────────────────────────────────────────────
+.claude/
+.cursor/
+.claudesettings.json.txt
+
+# ─── OS junk ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Secrets (never commit these) ────────────────────────────────────────
+.env
+.env.*
+*.env
